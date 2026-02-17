@@ -564,25 +564,8 @@ function populateSocialLinks() {
 // Setup Download Resume
 // ===================================
 function setupDownloadResume() {
-    const downloadButton = document.getElementById('download-resume');
-    
-    if (downloadButton) {
-        downloadButton.addEventListener('click', (e) => {
-            e.preventDefault();
-            
-            // Show notification
-            showNotification('Opening print dialog...', 'info');
-            
-            // Small delay for better UX
-            setTimeout(() => {
-                // Option 1: Print the page (user can save as PDF)
-                window.print();
-            }, 300);
-            
-            // Option 2: If you have a PDF file, uncomment below
-            // window.location.href = 'path/to/your/resume.pdf';
-        });
-    }
+    // Resume download is now handled by direct link in HTML
+    // No JavaScript intervention needed
 }
 
 // ===================================
