@@ -1,0 +1,183 @@
+{
+  "basics": {
+    "name": "Mayank Singh Rathore",
+    "headline": "Senior DevOps Engineer | Cloud Architect | AI/ML Enthusiast",
+    "location": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "India"
+    },
+    "phone": "+91-91551-57656",
+    "email": "career.mayankrathore@gmail.com",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "rathoremayank",
+        "url": "https://www.linkedin.com/in/rathoremayank"
+      }
+    ],
+    "summary": "Cloud-native DevOps engineer with 7+ years architecting highly available systems on AWS and Azure. Expert in Kubernetes orchestration, IaC automation, and GitOps workflows. Proven track record of migrating legacy infrastructure to cloud, containerizing 30+ mission-critical applications, and optimizing CI/CD pipelines for scale. Passionate about leveraging AI/ML and GenAI to enhance operational intelligence.",
+    "quickLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/rathoremayank",
+        "icon": "fab fa-github"
+      },
+      {
+        "name": "Blog",
+        "url": "#",
+        "icon": "fas fa-blog"
+      },
+      {
+        "name": "Portfolio",
+        "url": "#",
+        "icon": "fas fa-briefcase"
+      },
+      {
+        "name": "Resume PDF",
+        "url": "#",
+        "icon": "fas fa-file-pdf"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Cloud & Orchestration",
+      "items": ["AWS", "Azure", "Kubernetes", "OpenShift", "ROSA", "Docker", "Helm"]
+    },
+    {
+      "category": "Infrastructure as Code",
+      "items": ["Terraform", "Ansible", "CloudFormation", "ARM Templates", "Chef"]
+    },
+    {
+      "category": "CI/CD & GitOps",
+      "items": ["Jenkins", "ArgoCD", "GitHub Actions", "Azure Pipelines", "GitLab CI"]
+    },
+    {
+      "category": "Observability & SRE",
+      "items": ["Prometheus", "Grafana", "ELK Stack", "Datadog", "Dynatrace", "PagerDuty"]
+    },
+    {
+      "category": "GenAI & MLOps",
+      "items": ["LangChain", "LlamaIndex", "RAG", "Prompt Engineering", "MLflow", "Kubeflow", "Vector DBs"]
+    },
+    {
+      "category": "Programming & Scripting",
+      "items": ["Python", "Go", "Bash", "PowerShell", "Groovy"]
+    }
+  ],
+  "workExperience": [
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "Siemens Technology and Services",
+      "location": "Bengaluru, India",
+      "startDate": "2023-01",
+      "endDate": null,
+      "summary": "Architecting cloud-native solutions and leading AWS migration initiatives for enterprise digitization platform.",
+      "highlights": [
+        "Orchestrated lift-and-shift to cloud-native migration of 30+ Java/C++ apps to AWS with zero-downtime strategy",
+        "Architected HA infrastructure using Terraform IaC, implementing multi-AZ deployments with 99.99% SLA",
+        "Engineered GitOps pipelines with ArgoCD, reducing deployment time by 70% and eliminating manual interventions",
+        "Led K8s/OpenShift cluster administration including RBAC, disaster recovery, and automated scaling policies"
+      ],
+      "technologies": ["AWS", "Terraform", "Kubernetes", "OpenShift", "ArgoCD", "GitOps", "Prometheus", "Grafana"]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "IBM Pvt. Ltd.",
+      "location": "Bengaluru, India",
+      "startDate": "2021-09",
+      "endDate": "2022-12",
+      "summary": "Azure CI/CD automation and infrastructure provisioning for global banking platform.",
+      "highlights": [
+        "Automated Azure infrastructure provisioning using ARM templates and Azure DevOps pipelines",
+        "Built enterprise CI/CD platform with quality gates, automated testing, and compliance checks",
+        "Reduced deployment failures by 85% through automated rollback mechanisms and canary deployments"
+      ],
+      "technologies": ["Azure", "Azure DevOps", "ARM Templates", "Jenkins", "Prometheus"]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "Mindtree Ltd.",
+      "location": "Bengaluru, India",
+      "startDate": "2020-08",
+      "endDate": "2021-08",
+      "summary": "Azure platform engineering and CI/CD pipeline optimization for food manufacturing vertical.",
+      "highlights": [
+        "Designed Azure cloud architecture for business-critical apps with HA and DR capabilities",
+        "Implemented centralized observability stack using Prometheus/Grafana with custom alerting",
+        "Streamlined release management reducing deployment cycles from weeks to hours"
+      ],
+      "technologies": ["Azure", "Azure Pipelines", "Terraform", "Grafana"]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mindtree Ltd.",
+      "location": "Bengaluru, India",
+      "startDate": "2018-10",
+      "endDate": "2020-07",
+      "summary": "On-prem private cloud operations and Jenkins automation for airline systems.",
+      "highlights": [
+        "Managed WebLogic-based SOA infrastructure with automated deployment pipelines",
+        "Developed PowerShell/Bash automation reducing manual ops by 60%"
+      ],
+      "technologies": ["Jenkins", "WebLogic", "Nexus", "SonarQube"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "Calcutta Institute of Engineering and Management",
+      "university": "West Bengal University of Technology",
+      "startDate": "2014",
+      "endDate": "2018",
+      "score": "8.2 CGPA"
+    }
+  ],
+  "projects": [
+    {
+      "name": "SE EDI Digitization Platform",
+      "domain": "Digital Transformation",
+      "company": "Siemens",
+      "role": "Lead DevOps Engineer",
+      "startDate": "2023-01",
+      "endDate": null,
+      "highlights": [
+        "Migrated legacy on-prem EDI platform to AWS cloud-native architecture with K8s orchestration",
+        "Containerized and deployed 30+ mission-critical microservices using Docker and Helm charts",
+        "Implemented GitOps CI/CD with ArgoCD achieving 100+ daily deployments with automated rollbacks",
+        "Built centralized observability using Prometheus/Grafana/ELK reducing MTTR by 60%",
+        "Pioneered AI-assisted operations leveraging LLMs for incident analysis and resolution"
+      ],
+      "url": "#"
+    },
+    {
+      "name": "Barclays Banking Infrastructure",
+      "domain": "Financial Services",
+      "company": "IBM",
+      "role": "Senior DevOps Engineer",
+      "startDate": "2021-09",
+      "endDate": "2022-12",
+      "highlights": [
+        "Automated AWS infra provisioning via service catalogs reducing spin-up time from days to minutes",
+        "Built Jenkins Enterprise pipelines with shared libraries enabling 50+ dev teams",
+        "Managed OpenShift cluster operations supporting 500+ containerized workloads"
+      ],
+      "url": "#"
+    },
+    {
+      "name": "Flower Foods Supply Chain",
+      "domain": "Manufacturing & Logistics",
+      "company": "Mindtree",
+      "role": "Senior DevOps Engineer",
+      "startDate": "2020-08",
+      "endDate": "2021-08",
+      "highlights": [
+        "Architected Azure PaaS solutions with auto-scaling and cost optimization strategies",
+        "Implemented DevSecOps practices integrating security scanning in CI/CD pipelines",
+        "Achieved 99.9% uptime through proactive monitoring and automated incident response"
+      ],
+      "url": "#"
+    }
+  ]
+}
