@@ -1609,3 +1609,197 @@ h1, h2, h3, h4, h5, h6 {
     outline-offset: 4px;
     border-radius: var(--radius-sm);
 }
+
+/* ===================================
+   Section CTA Styles
+   =================================== */
+.section-cta {
+    margin-top: var(--space-16);
+    text-align: center;
+}
+
+.btn-large {
+    padding: var(--space-5) var(--space-10);
+    font-size: var(--text-lg);
+}
+
+/* ===================================
+   Page Hero Styles
+   =================================== */
+.page-hero {
+    position: relative;
+    padding: calc(var(--space-20) + 80px) 0 var(--space-20);
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.page-hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    margin-bottom: var(--space-6);
+    transition: all var(--transition-base);
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: var(--accent-primary);
+    gap: var(--space-3);
+}
+
+.page-title {
+    font-family: var(--font-display);
+    font-size: var(--text-5xl);
+    font-weight: 800;
+    line-height: var(--leading-tight);
+    margin-bottom: var(--space-6);
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-subtitle {
+    font-size: var(--text-xl);
+    color: var(--text-secondary);
+    line-height: var(--leading-relaxed);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ===================================
+   Projects Page Styles
+   =================================== */
+.projects-page {
+    padding: var(--space-16) 0;
+}
+
+.projects-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: var(--space-8);
+}
+
+.project-link-card {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-xl);
+    padding: var(--space-8);
+    transition: all var(--transition-base);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+}
+
+.project-link-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--accent-primary);
+}
+
+.project-link-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--radius-xl);
+    background: var(--accent-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: var(--text-3xl);
+    flex-shrink: 0;
+}
+
+.project-link-content h3 {
+    font-family: var(--font-display);
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--space-3);
+}
+
+.project-link-content p {
+    font-size: var(--text-base);
+    color: var(--text-secondary);
+    line-height: var(--leading-relaxed);
+}
+
+.project-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-6);
+    background: var(--accent-gradient);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--radius-lg);
+    font-weight: 600;
+    font-size: var(--text-base);
+    transition: all var(--transition-base);
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.project-link-btn:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.project-link-btn i {
+    font-size: var(--text-sm);
+    transition: transform var(--transition-base);
+}
+
+.project-link-btn:hover i {
+    transform: translateX(4px);
+}
+
+/* Dark theme adjustments for projects page */
+[data-theme="dark"] .project-link-card {
+    background: var(--bg-secondary);
+    border-color: var(--border-medium);
+}
+
+[data-theme="dark"] .project-link-card:hover {
+    border-color: var(--accent-primary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: var(--text-4xl);
+    }
+    
+    .page-subtitle {
+        font-size: var(--text-lg);
+    }
+    
+    .projects-links-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-6);
+    }
+    
+    .project-link-card {
+        padding: var(--space-6);
+    }
+    
+    .project-link-icon {
+        width: 56px;
+        height: 56px;
+        font-size: var(--text-2xl);
+    }
+}
+

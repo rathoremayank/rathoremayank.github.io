@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mayank Singh Rathore - All Projects Portfolio">
+    <meta name="author" content="Mayank Singh Rathore">
+    <title>All Projects - Mayank Singh Rathore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <span id="logo-initial">M</span>
+                    </div>
+                    <h1 id="nav-name" class="logo-text">Mayank Singh Rathore</h1>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+                    <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="data/resume.pdf" id="download-resume" class="btn-download" aria-label="Download resume" download>
+                        <i class="fas fa-download"></i>
+                        <span>Resume</span>
+                    </a>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container">
+            <div class="page-hero-content">
+                <a href="index.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Back to Home</span>
+                </a>
+                <h1 class="page-title">All Projects</h1>
+                <p class="page-subtitle">Explore my complete portfolio of work, including cloud infrastructure, DevOps automation, and platform engineering projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-page section">
+        <div class="container">
+            <div class="projects-links-grid">
+                <!-- Cloud Infrastructure Projects -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Azure Cloud Migration</h3>
+                        <p>Complete enterprise migration to Azure with IaC and CI/CD pipelines</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/azure-migration-project" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Kubernetes Cluster -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Kubernetes Platform</h3>
+                        <p>Production-grade K8s cluster with monitoring and auto-scaling</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/k8s-platform" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- CI/CD Pipeline -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>CI/CD Automation</h3>
+                        <p>Multi-stage pipeline with automated testing and deployment</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/cicd-automation" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Infrastructure as Code -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-file-code"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Terraform Modules</h3>
+                        <p>Reusable IaC modules for AWS and Azure infrastructure</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/terraform-modules" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Monitoring Solution -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Observability Stack</h3>
+                        <p>Full-stack monitoring with Prometheus, Grafana, and ELK</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/observability-stack" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Microservices Architecture -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Microservices Platform</h3>
+                        <p>Containerized microservices with service mesh and API gateway</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/microservices-platform" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Disaster Recovery -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>DR Solution</h3>
+                        <p>Multi-region disaster recovery with automated failover</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/disaster-recovery" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- DevOps Tooling -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>DevOps Toolkit</h3>
+                        <p>Custom tools and scripts for automation and deployment</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/devops-toolkit" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Security Automation -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Security Pipeline</h3>
+                        <p>Automated security scanning and compliance validation</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/security-automation" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Cost Optimization -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Cost Optimization</h3>
+                        <p>Cloud cost management and optimization framework</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/cost-optimization" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Load Balancing -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Load Balancer Config</h3>
+                        <p>High-availability load balancing with health checks</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/load-balancer" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Database Migration -->
+                <div class="project-link-card">
+                    <div class="project-link-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-link-content">
+                        <h3>Database Migration</h3>
+                        <p>Zero-downtime database migration with rollback capability</p>
+                    </div>
+                    <a href="https://github.com/rathoremayank/db-migration" class="project-link-btn" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <div class="logo-icon">
+                            <span>M</span>
+                        </div>
+                        <h3>Mayank Singh Rathore</h3>
+                        <p>Building scalable cloud infrastructure</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html#about">About</a></li>
+                                <li><a href="index.html#experience">Experience</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Connect</h4>
+                            <ul>
+                                <li><a href="projects.html">Projects</a></li>
+                                <li><a href="index.html#skills">Skills</a></li>
+                                <li><a href="index.html#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-bottom">
+                    <p class="copyright">
+                        &copy; <span id="current-year"></span> Mayank Singh Rathore. 
+                        Crafted with <i class="fas fa-heart"></i> and lots of ☕
+                    </p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/rathoremayank" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/rathoremayank" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
